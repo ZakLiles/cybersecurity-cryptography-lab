@@ -1,0 +1,16 @@
+Simple Substitution Cipher using a keyword
+1.Cipher text alphabet starts with 1st keyword with duplicate letters removed and ends with 2nd keyword(i.e. apples -> aples)
+2.Rest of alphabet not used from keyword is written out in usual order between the two keywords, with the keywords as "book-ends"
+1st keyword = ICARUS
+2nd keyword = MONK
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ICARUSBDEFGHJLPQTVWXYZMONK
+
+Message:
+I love cryptography!
+
+Enciphered Message:
+E HPZU AVNQXPBVIQDN!
+
+Deciphered Message:
+I LOVE CRYPTOGRAPHY!
